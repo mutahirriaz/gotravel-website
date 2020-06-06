@@ -1,0 +1,341 @@
+.menu a:hover{
+    
+    border-bottom: 2px solid #ff9e01;
+}
+ .logo{
+    width: 150px;
+}
+
+ /* SLIDER IMAGE 1 */
+ @media only screen and (min-width: 576px) {
+    .sliderimage3{
+        
+        height:300px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sliderimage3{
+        
+        height:460px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .sliderimage3{
+        
+        height:500px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sliderimage3{
+        
+        height:600px;
+    }
+}
+
+/* SLIDER IMAGE 2 */
+@media only screen and (min-width: 576px) {
+    .islandlar{
+        
+        height:300px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .islandlar{
+        
+        height:460px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .islandlar{
+        
+        height:500px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .islandlar{
+        
+        height:600px;
+    }
+}
+/* SLIDER IMAGE 2 */
+@media only screen and (min-width: 576px) {
+    .sliderimage4{
+        
+        height:300px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sliderimage4{
+        
+        height:460px;
+    }
+    
+}
+@media only screen and (min-width: 992px) {
+    .sliderimage4{
+        
+        height:500px;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .sliderimage4{
+        
+        height:600px;
+    }
+}
+
+
+
+.fade-in{
+ animation:fadeIn 3s ;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*   For Images */
+
+
+.building{
+    
+    transition: all .2s;
+    
+}
+.building:hover{
+    transform: scale(0.9);
+}
+.resourt{
+    transition: all .2s;
+    
+}
+.resourt:hover{
+    transform: scale(0.9);
+}
+.liberty{
+    transition: all .2s;
+   
+}
+.liberty:hover{
+    transform: scale(0.9);
+}
+.egypt{
+    transition: all.2s;
+    
+}
+.egypt:hover{
+    transform: scale(0.9);
+}
+.london{
+    transition: .2s;
+}
+.london:hover{
+    transform: scale(0.9);
+}
+.spain{
+    transition: all .2s;
+}
+.spain:hover{
+    transform: scale(0.9);
+}
+
+.ourbesttours{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.button{
+    background-color: #ffa900;
+    border-radius: 5px;
+    border: 2px solid #f7f8fa;
+    color: white;
+    border-radius: 15px;
+    ;
+}
+.button:hover{
+    background-color: black;
+}
+
+/* For Our Services */  
+
+.ourservice{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 50px; */
+
+}
+.cardbutton{
+    margin-left: 120px;
+    
+    color: white;
+
+}
+.buttondesign{
+    border-radius: 10px !important;
+    background-color: #fea800;
+}
+.buttondesign:hover{
+    background-color:#2c20c0 ;
+}
+.card1{
+    border: 2px solid #f7f8fa;
+}
+.card2{
+    border: 2px solid #f7f8fa;
+}
+.card3{
+    border: 2px solid #f7f8fa;
+}
+.card1:hover{
+    background-color: #D5DCDE;
+}
+.card2:hover{
+    background-color: #D5DCDE;
+}
+.card3:hover{
+     background-color: #D5DCDE;
+}
+/*  summer tour heading  */
+.summertourheading{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* work for rating   */
+
+/*  Work For Jumbotron Pictutre and Button  */
+.ratingheading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.jumbotron{
+    background-image: url("images/jumbotron\ image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
+.jumbotron h3{
+    color: white;
+    margin-top: 100px;
+    font-size: 25px;
+   
+}
+.jumbotronbutton{
+    background-color: #572f59;
+    color: white;
+    border-radius: 10px;
+    border-color: #572f59;
+    padding: 5px 5px 5px 5px;
+}
+.jumbotronbutton:hover{
+    background-color: #aa4c33;
+}
+@media only screen and (max-width: 576px) {
+    .jumbotronimg{
+        
+        height:300px;
+    }
+    
+}
+
+/*  Work For Footer  */
+.footer{
+    background-color: #28272f;
+}
+.footerparagrapg1{
+    color: #ff9e01;
+    font-size: 23px;
+}
+.footerparagraph2{
+    color: white;
+}
+
+.footerbuttonalighment{
+    text-align: right;
+    
+}
+.footerbutton{
+    color: white;
+    background-color: #252525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.footerbutton:hover{
+    background-color:#ff9e01 ;
+}
+
+@media only screen and (max-width: 576px) {
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 1073px){
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    } 
+}
+
+/*  Work For Footer Column 1  */
+.footercolumnparagraph1{
+    color: #ebebf3;
+   
+    font-size: 13px;
+}
+
+/* Work for footer column 2 */
+.footercolumncontactus{
+    color: #ff9e01;
+}
+.footericon{
+    color: yellow;
+   margin-left: 10px;
+}
+
+/*  Work For footer column 3  */
+.footercolumninformation{
+    color: #ff9e01;
+}
+
+.lasticon{
+    background-color: black;
+    padding: 5px 5px 4px 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.lasticon:hover{
+    background-color:#ff9e01 ;
+}
+#lasticon{
+    text-align: right;
+}
+
+@media only screen and (max-width:765px){
+    #lasticon{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .columnthree{
+        margin-top: 20px;
+    }
+}
+

@@ -1,0 +1,303 @@
+.menu a:hover{
+    
+    border-bottom: 2px solid #ff9e01;
+}
+
+/*   Work for About background image  */
+.background-image{
+    background-image: url("../images/aboutus\ image.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    image-orientation: flip;
+
+}
+.aboutimageheading{
+    padding-top: 220px;
+    vertical-align: middle;
+    color: white;
+}
+@media only screen and (max-width:776px){
+    .background-image{
+        height: 300px;
+    }
+    .aboutimageheading{
+        padding-top: 110px;
+    }
+}
+@media only screen and (max-width:992px){
+    .background-image{
+        height: 330px;
+    }
+    .aboutimageheading{
+        padding-top: 100px
+        ;
+    }
+}
+
+/*  Work for sealine   */
+.sealine{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sealineheading{
+    font-size: 30px;
+}
+@media only screen and (max-width:576px){
+    .sealineimage{
+        
+        width: 400px;
+    }
+}
+@media only screen and (max-width:991px){
+        .sealineheading{
+            font-size: 30px;
+            text-align: left;
+            padding-top: 20px;
+        }
+}
+@media only screen and (max-width:576px){
+    .sealineimage{
+        width: 450px !important;
+    }
+}
+.button{
+    text-align: left;
+}
+.sealinebutton{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    
+}
+.sealinebutton:hover{
+    background-color: rgb(143, 42, 143);
+}
+
+/*   Work For Air tickets voyages and hotel booking    */
+.buttondesign{
+    border-radius: 10px !important;
+    background-color: #fea800;
+}
+.buttondesign:hover{
+    background-color:#2c20c0 ;
+}
+.card1{
+    border: 2px solid #f7f8fa;
+}
+.card2{
+    border: 2px solid #f7f8fa;
+}
+.card3{
+    border: 2px solid #f7f8fa;
+}
+.card1:hover{
+    background-color: #D5DCDE;
+}
+.card2:hover{
+    background-color: #D5DCDE;
+}
+.card3:hover{
+     background-color: #D5DCDE;
+}
+
+/*  Work for meet our team heading  */
+.meetourteamheading{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+/*  Work for Meet our Teem  */
+.img-circle{
+    border-radius: 50%;
+   width: 200px; 
+}
+@media only screen and (max-width:991px){
+    .img-circle{
+        width: 300px;
+    }
+    .travelagentteam{
+        margin-top: 40px;
+    }
+    .reservationscoordinator{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:766px){
+
+    .Director{
+        padding-bottom: 10px;
+    }
+    .ronaldchen{
+        margin-top: 30px;
+    }
+    
+}
+.teamname{
+    color: #ffa900;
+    font-size: 20px;
+}
+.teamicon{
+    color: gray;
+}
+.teamicon:hover{
+    color: #ffa900;
+}
+
+/*  Work For Destination  */
+.destination{
+    margin-top: 100px !important;
+    margin-bottom: 80px;
+}
+
+/*  Work for destination image  */
+@media only screen and (max-width:1288px){
+    .huntington{
+        width: 230px;
+    }
+    .elnido{
+        width: 230px;
+    }
+    .lefkada{
+        width: 230px;
+    }
+    .nusadua{
+        width: 230px;
+    }
+}
+@media only screen and (max-width:991px){
+    .huntington{
+        width: 350px;
+    }
+    .elnido{
+        width: 350px;
+    }
+    .lefkada{
+        width: 350px;
+        margin-top: 50px;
+    }
+    .nusadua{
+        width: 350px;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:766px){
+    .elnido{
+        margin-top: 50px;
+    }
+}
+
+.destinationname:hover{
+    color: #ffa900;
+}
+.destination1{
+    margin-top: 20px;
+}
+
+#destinationbutton{
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    background-color:#ffa900 ;
+}
+#destinationbutton:hover{
+    background-color: rgb(27, 27, 112);
+}
+
+/*  Work for footer   */
+.footer{
+    background-color: #28272f;
+}
+.footerparagrapg1{
+    color: #ff9e01;
+    font-size: 23px;
+}
+.footerparagraph2{
+    color: white;
+}
+
+.footerbuttonalighment{
+    text-align: right;
+    
+}
+.footerbutton{
+    color: white;
+    background-color: #252525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.footerbutton:hover{
+    background-color:#ff9e01 ;
+}
+
+@media only screen and (max-width: 576px) {
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 1073px){
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    } 
+}
+
+/*  Work For Footer Column 1  */
+.footercolumnparagraph1{
+    color: #ebebf3;
+   
+    font-size: 13px;
+}
+
+/* Work for footer column 2 */
+.footercolumncontactus{
+    color: #ff9e01;
+}
+.footericon{
+    color: yellow;
+   margin-left: 10px;
+}
+
+/*  Work For footer column 3  */
+.footercolumninformation{
+    color: #ff9e01;
+}
+
+.lasticon{
+    background-color: black;
+    padding: 5px 5px 4px 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.lasticon:hover{
+    background-color:#ff9e01 ;
+}
+#lasticon{
+    text-align: right;
+}
+
+@media only screen and (max-width:765px){
+    #lasticon{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .columnthree{
+        margin-top: 20px;
+    }
+}

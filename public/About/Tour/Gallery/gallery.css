@@ -1,0 +1,151 @@
+.menu a:hover{
+    
+    border-bottom: 2px solid #ff9e01;
+}
+
+.background-image{
+    background-image: url("../Gallery/galleryimage/background\ image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    image-orientation: flip;
+}
+.galleryimageheading{
+    padding-top: 220px;
+    color: white;
+    font-size: 26px;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:776px){
+    .background-image{
+        height: 300px;
+    }
+    .galleryimageheading{
+        padding-top: 110px;
+    }
+}
+@media only screen and (max-width:992px){
+    .background-image{
+        height: 330px;
+    }
+    .galleryimageheading{
+        padding-top: 100px;
+        
+    }
+}
+
+/*  work for gallery image  */
+.galleryimage{
+    margin-top: 50px !important;
+}
+
+@media only screen and (max-width:766px){
+    .galleryimage2{
+        margin-top: 50px;
+    }
+    .galleryimage1{
+        margin-top: 50px;
+        
+    }
+}
+@media only screen and (max-width:573){
+    .galleryimage1{
+        width: 400px !important;
+    }
+}
+/*  Work for footer   */
+.footer{
+    background-color: #28272f;
+   
+}
+.footerparagrapg1{
+    color: #ff9e01;
+    font-size: 23px;
+}
+.footerparagraph2{
+    color: white;
+}
+
+.footerbuttonalighment{
+    text-align: right;
+    
+}
+.footerbutton{
+    color: white;
+    background-color: #252525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.footerbutton:hover{
+    background-color:#ff9e01 ;
+}
+
+@media only screen and (max-width: 576px) {
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 1073px){
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    } 
+}
+
+/*  Work For Footer Column 1  */
+.footercolumnparagraph1{
+    color: #ebebf3;
+   
+    font-size: 13px;
+}
+
+/* Work for footer column 2 */
+.footercolumncontactus{
+    color: #ff9e01;
+}
+.footericon{
+    color: yellow;
+   margin-left: 10px;
+}
+
+/*  Work For footer column 3  */
+.footercolumninformation{
+    color: #ff9e01;
+}
+
+.lasticon{
+    background-color: black;
+    padding: 5px 5px 4px 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.lasticon:hover{
+    background-color:#ff9e01 ;
+}
+#lasticon{
+    text-align: right;
+}
+
+@media only screen and (max-width:765px){
+    #lasticon{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .columnthree{
+        margin-top: 20px;
+    }
+}

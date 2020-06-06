@@ -1,0 +1,182 @@
+
+.menu a:hover{
+    
+    border-bottom: 2px solid #ff9e01;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.backgroundimage{
+    background-image: url("../ContactUs/contactimages/backgroundimage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.10)),url("../ContactUs/contactimages/backgroundimage.jpg");
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 230px;
+
+}
+
+@media only screen and (max-width:776px){
+    .backgroundimage{
+        height: 300px;
+    }
+    /* .tourimageheading{
+        padding-top: 110px;
+    } */
+}
+@media only screen and (max-width:992px){
+    .backgroundimage{
+        height: 330px;
+    }
+    /* .tourimageheading{
+        padding-top: 100px;
+        
+    } */
+}
+
+.icons i{
+    font-size: 100px;
+    color: #ff9e01;
+} 
+.icons p{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 1em;
+
+}
+.col1:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px 8px 2px ;
+}
+.getintouch{
+    margin-top: 50px;
+}
+.info{
+    background-color:#f7f7f7;
+    border: none;
+    padding: 10px 10px 10px 14px;
+    border-radius: 12px;
+}
+.comment{
+    margin-top: 30px;
+   
+}
+.tellus{
+
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 14px;
+    padding-left: 10px;
+}
+@media only screen and (max-width:992px){
+    .tellus{
+        margin-top: 10px;
+        width: 450px;
+    }
+}
+@media only screen and (max-width:768px){
+    .info{
+        margin-top:20px;
+        
+    }
+}
+
+/*  Work for footer   */
+.footer{
+    background-color: #28272f;
+   
+}
+.footerparagrapg1{
+    color: #ff9e01;
+    font-size: 23px;
+}
+.footerparagraph2{
+    color: white;
+}
+
+.footerbuttonalighment{
+    text-align: right;
+    
+}
+.footerbutton{
+    color: white;
+    background-color: #252525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.footerbutton:hover{
+    background-color:#ff9e01 ;
+}
+
+@media only screen and (max-width: 576px) {
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 1073px){
+    .footerbuttonalighment{
+        
+        text-align: center;
+    }
+    .footerheading{
+
+        text-align: center;
+    } 
+}
+
+/*  Work For Footer Column 1  */
+.footercolumnparagraph1{
+    color: #ebebf3;
+   
+    font-size: 13px;
+}
+
+/* Work for footer column 2 */
+.footercolumncontactus{
+    color: #ff9e01;
+}
+.footericon{
+    color: yellow;
+   margin-left: 10px;
+}
+
+/*  Work For footer column 3  */
+.footercolumninformation{
+    color: #ff9e01;
+}
+
+.lasticon{
+    background-color: black;
+    padding: 5px 5px 4px 5px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.lasticon:hover{
+    background-color:#ff9e01 ;
+}
+#lasticon{
+    text-align: right;
+}
+
+@media only screen and (max-width:765px){
+    #lasticon{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .columnthree{
+        margin-top: 20px;
+    }
+}
